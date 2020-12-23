@@ -15,6 +15,10 @@ class PostsController extends Controller
     {
         //
     }
+    public function test()
+    {
+       return "<h1>test</h1>";
+    }
 
     /**
      * Show the form for creating a new resource.
